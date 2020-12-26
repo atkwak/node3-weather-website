@@ -26,6 +26,7 @@ const messageOne = document.querySelector('#message-1')
 const messageTwo = document.querySelector('#message-2')
 
 //messageOne.textContent = 'from Jave script'
+//messageOne.textContent = 'from Jave script'
 
 weatherForm.addEventListener('submit',(e) => {
     e.preventDefault()
