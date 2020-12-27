@@ -122,6 +122,6 @@ app.get('*',(req,res)=>{                                // if none of the route 
         error: 'Page Not Found'
     })
 })
-app.listen(3000,()=>{// port 3000 is development port
+app.listen(port,()=>{// port 3000 is development port
     console.log('Server is runing...')
 })           
